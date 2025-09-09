@@ -12,7 +12,13 @@ class MealDetailsScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff009689),
       appBar: AppBar(
-        title: Text(data['title'], style: TextStyle(color: Color(0xff009689))),
+        title: Text(
+          data['title'],
+          style: TextStyle(
+            color: Color(0xff009689),
+            fontWeight: FontWeight.bold,
+          ),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(15),

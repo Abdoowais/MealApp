@@ -18,6 +18,8 @@ class MealScreen extends StatelessWidget {
     }).toList();
 
     return Scaffold(
+      backgroundColor: const Color(0xff3eb5d5),
+
       appBar: AppBar(
         backgroundColor: const Color(0xff019689),
         title: Text(
